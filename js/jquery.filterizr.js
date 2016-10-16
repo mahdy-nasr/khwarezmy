@@ -7,7 +7,7 @@
 * @version 1.2.1
 * @license MIT License
 */
-
+x=0;
 (function(global, $) {
 
     'use strict';
@@ -112,18 +112,23 @@
                 animationDuration: 0.5,
                 callbacks: {
                     onFilteringStart: function() { },
-                    onFilteringEnd  : function() { }
+                    onFilteringEnd  : function() { 
+                        
+                                   //alert('sd');
+                                   $('.filtr-item a').Chocolat();
+
+                    }
                 },
                 delay: 0,
                 delayMode: 'progressive',
                 easing: 'ease-out',
-                filter: 'all',
+                filter: '1',
                 filterOutCss: {
-                    'opacity': 0,
+                    'display': 'none',
                     'transform': 'scale(0.5)'
                 },
                 filterInCss: {
-                    'opacity': 1,
+                    'display': 'block',
                     'transform': 'scale(1)'
                 },
                 layout: 'sameSize',

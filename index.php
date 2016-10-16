@@ -29,8 +29,8 @@ Author URL: http://khwarezmy.com
 
 <script type="text/javascript" src="js/numscroller-1.0.js"></script>
 <link href="css/index.css" rel="stylesheet" type="text/css" media="all" />
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -200,13 +200,13 @@ Author URL: http://khwarezmy.com
 				<b></b>
 				<b class="line"></b>
 			</div>
-						<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+						
 
 		</div>
 		
             <ul class="simplefilter">
-                <li class="active" data-filter="all">All</li>
-                <li data-filter="1">Real Estate Portal</li>
+                
+                <li class="active" data-filter="1">Real Estate Portal</li>
                 <li data-filter="2">Online Shoppign</li>
                 <li data-filter="3">online Education</li>
                 <li data-filter="4">Book Store</li>
@@ -374,7 +374,7 @@ Author URL: http://khwarezmy.com
 		<!--light-box-files -->
 		<script type="text/javascript" charset="utf-8">
 		$(function() {
-			$('.filtr-item a').Chocolat();
+			//$('.filtr-item a').Chocolat();
 		});
 		</script>
 
@@ -523,7 +523,7 @@ We can not wait to launch our mobile app.</p>
 <!--contact-->
 	<div class="map-top" id="contact">
 				<div class="col-md-8 map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12947831.742778081!2d-95.665!3d37.599999999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1422444552833"></iframe>
+			
 				</div>
 					<div class="col-md-4 address">
 					<div class="contact-grid1">
