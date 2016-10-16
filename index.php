@@ -145,8 +145,8 @@ Author URL: http://khwarezmy.com
 						<div class=" hi-icon-effect-7 hi-icon-effect-7a">
 							<i class="glyphicon glyphicon-leaf hi-icon "> </i>
 						</div>
-						<h3>New Service1</h3>
-						<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor voluptaquisquam estqui dolorem ipsumquia dolor voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse. Basmodi BasmodiBasmodiBasmodiBasmodiBasmodiBasmodi Basmodi BasmodiBasmodi temporant</p>
+						<h3>Web Development</h3>
+										<p>we go deep into understanding your Business' and provide you with the best solution that will fulfill your business goals.</p>
 
 					</div>
 
@@ -158,8 +158,8 @@ Author URL: http://khwarezmy.com
 						<div class=" hi-icon-effect-7 hi-icon-effect-7a">
 							<i class="glyphicon glyphicon-user hi-icon "> </i>
 						</div>
-						<h3>New Service2</h3>
-						<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse. Basmodi temporant</p>
+						<h3>Mobile Development</h3>
+										<p>We create highly polished iPhone & Android apps for startups and enterprise clients.</p>
 
 					</div>
 				</div>
