@@ -22,7 +22,7 @@ Author URL: http://khwarezmy.com
 					jQuery(document).ready(function($) {
 						$(".scroll").click(function(event){		
 							event.preventDefault();
-							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+							$('html,body').animate({scrollTop:$(this.hash).offset().top-30},1000);
 						});
 					});
 					</script>
@@ -59,10 +59,8 @@ Author URL: http://khwarezmy.com
 					<ul class="nav navbar-nav ">
 					<li ><a href="index.html" class="scroll active" data-hover="Home">Home</a> </li>
 						<li ><a href="#services" class="scroll" data-hover="About">Services</a> </li>
-						<li><a href="#success" class="scroll" data-hover="Gallery">Success</a></li>
 						<li><a href="#testimonials" class="scroll" data-hover="Gallery">Testimonials</a></li>
-						<li><a href="#gallery" class="scroll" data-hover="Gallery">Gallery</a></li>
-						<li><a href="#team" class="scroll" data-hover="Codes">Team </a></li>
+						<li><a href="#gallery" class="scroll" data-hover="Gallery">Portfolio</a></li>
 						<li><a href="#contact" class="scroll" data-hover="Contact">Contact</a></li>
 					  </ul>
 					  <div class="clearfix"></div>
@@ -125,7 +123,7 @@ Author URL: http://khwarezmy.com
 </div>
 </div>
 <!--content-->
-<div class="service" id="services">
+<div class="service" id="services" style="background:#eee;" >
 	<div class="container">
 		<div class="ser-top">
 			<h3>Services</h3>
@@ -133,17 +131,18 @@ Author URL: http://khwarezmy.com
 				<b></b>
 				<b class="line"></b>
 			</div>
-						<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+						
+
 
 		</div>
 		<div class="service-head">
 		
-			<div class="col-md-12 ser-head1" style="border-bottom: 1px dashed black;">
+			<div class="col-md-12 ser-head1" >
 				<div class="col-md-6  ser-grid">
 					<div class=''>
 						<span></span>
 						<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-							<i class="glyphicon glyphicon-leaf hi-icon "> </i>
+							<i class="glyphicon glyphicon-globe hi-icon "> </i>
 						</div>
 						<h3>Web Development</h3>
 										<p>We go deep into understanding your Business' and provide you with the best solution that will fulfill your business goals.</p>
@@ -156,7 +155,7 @@ Author URL: http://khwarezmy.com
 					<div class=''>
 
 						<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-							<i class="glyphicon glyphicon-user hi-icon "> </i>
+							<i class="glyphicon glyphicon-phone hi-icon " > </i>
 						</div>
 						<h3>Mobile Development</h3>
 										<p>We create highly polished iPhone & Android apps for startup and enterprise clients.</p>
@@ -171,7 +170,7 @@ Author URL: http://khwarezmy.com
 
 				<div class="col-md-6 ser-grid ">
 					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-cog hi-icon "> </i>
+						<i class="glyphicon glyphicon-shopping-cart hi-icon "> </i>
 					</div>
 					
 					<h3>E-COMMERCE</h3>
@@ -179,7 +178,7 @@ Author URL: http://khwarezmy.com
 				</div>
 				<div class="col-md-6 ser-grid ">
 					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-piggy-bank hi-icon"> </i>
+						<i class="glyphicon glyphicon-cloud-upload hi-icon"> </i>
 					</div>
 					<h3>Company Digitizing</h3>
 					<p>We take your business to the next level by automating all your daily routins so you can focuse on whats important</p>
@@ -194,7 +193,7 @@ Author URL: http://khwarezmy.com
 					<!--gallery-->
 <div class="gallery" id="gallery"  >
 	<div class="container">
-		<div class="ser-top ga-top" style="border-top:2px solid gray;padding-top:30px;">
+		<div class="ser-top ga-top" style="padding-top:10px;">
 			<h3>Portfolio </h3>
 			<div class="ser-t">
 				<b></b>
@@ -219,13 +218,8 @@ Author URL: http://khwarezmy.com
 	                <a href="images/ga.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 		
 						<figure>
-						 <img src="images/ga.jpg" class="img-responsive" alt=" " />	<figcaption>
-								<h3>Prevailing</h3>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-									tempor incididunt ut labore et dolore magna aliqua.
-								</p>
-							</figcaption>
+						 <img src="images/ga.jpg" class="img-responsive" alt=" " />	
+
 						</figure>
 					</a>
 
@@ -234,13 +228,7 @@ Author URL: http://khwarezmy.com
                    <a href="images/ga1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga1.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga1.jpg" class="img-responsive" alt=" " />	
 					</figure>
 				</a>
 
@@ -249,13 +237,7 @@ Author URL: http://khwarezmy.com
                     <a href="images/ga2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga2.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga2.jpg" class="img-responsive" alt=" " />	
 					</figure>
 				</a>
 
@@ -264,13 +246,7 @@ Author URL: http://khwarezmy.com
                    <a href="images/ga3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga3.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga3.jpg" class="img-responsive" alt=" " />	
 					</figure>
 				</a>
 
@@ -279,13 +255,7 @@ Author URL: http://khwarezmy.com
                   <a href="images/ga4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga4.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga4.jpg" class="img-responsive" alt=" " />	
 					</figure>
 				</a>
 
@@ -294,13 +264,7 @@ Author URL: http://khwarezmy.com
                     <a href="images/ga5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga5.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga5.jpg" class="img-responsive" alt=" " />	
 					</figure>
 				</a>
 
@@ -309,13 +273,7 @@ Author URL: http://khwarezmy.com
                    <a href="images/ga6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga6.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga6.jpg" class="img-responsive" alt=" " />	
 					</figure>
 				</a>
 
@@ -324,13 +282,8 @@ Author URL: http://khwarezmy.com
                    <a href="images/ga7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga7.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga7.jpg" class="img-responsive" alt=" " />	
+					 
 					</figure>
 				</a>
 
@@ -339,13 +292,7 @@ Author URL: http://khwarezmy.com
                   <a href="images/ga8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
-					 <img src="images/ga8.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
+					 <img src="images/ga8.jpg" class="img-responsive" alt=" " />	
 					</figure>
 				</a>
 
@@ -409,14 +356,16 @@ Author URL: http://khwarezmy.com
 				<b></b>
 				<b class="line"></b>
 			</div>
-						<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+						
+
 
 		</div>
-			<div class=" test-grid-1">
-				<div class=" col-md-4 test-wrapper">
+			<div class=" test-grid-1" style="padding-bottom:40px;">
+				<!--div class=" col-md-4 test-wrapper">
 					<img src="images/tt2.png" alt="" class="img-responsive">
-					</div>
-					<div class="col-md-8 test-grid1">
+					</div-->
+
+					<div class="col-md-10 col-md-offset-1 test-grid1">
 					 <div id="owl-demo2" class="owl-carousel">
 							   			<div class=" test-grid">
 						<p>AtlantisKey was a game changer in the Real State business in North Cyprus and for our business for sure. Our clients are very pleased with the simplicity of the website and that was only possible due to the dedication of the UI and UX team in khwarezmy.
@@ -445,7 +394,7 @@ We can not wait to launch our mobile app.</p>
 			</div>
 		</div>
 	</div>
-<!---->
+<!--
 <div class="team" id="team">
 	<div class="container">
 		<div class="ser-top ga-top">
@@ -519,12 +468,51 @@ We can not wait to launch our mobile app.</p>
 		<div class="clearfix"></div>
 	</div>
 </div>	
-
+-->
 <!--contact-->
 	<div class="map-top" id="contact">
-				<div class="col-md-8 map">
-			
+				<div class="col-md-8 map" style="background:#fff;padding-bottom: 4.5em;">
+					<div class="contact" style="margin-top:20px;padding:0;">
+						<div class="row col-xs-12" >
+							<div class="ser-top ga-top" >
+									<h3>Contact</h3>
+									<div class="ser-t">
+										<b></b>
+										<b class="line"></b>
+									</div>
+												
+
+								</div>
+										<div class="top-contact">
+										<form action="#" method="post">
+										<div class="col-md-6 grid-contact">
+											<div class="your-top">
+												<i class="glyphicon glyphicon-user"> </i>
+												<input type="text" placeholder="Name" name="Name"  required >								
+												<div class="clearfix"> </div>
+											</div>
+											<div class="your-top">
+												<i class="glyphicon glyphicon-envelope"> </i>
+												<input type="text" placeholder="E-mail" name="E-mail" required>								
+												<div class="clearfix"> </div>
+											</div>
+											<div class="your-top">
+												<i class="glyphicon glyphicon-link"> </i>
+												<input type="text" placeholder="Website" name="Website"  required>								
+												<div class="clearfix"> </div>
+											</div>
+											
+										</div>
+										<div class="col-md-6 grid-contact-in">
+											<textarea  placeholder=" Message" name="Message"  required></textarea>
+											<input type="submit" value="Send">
+										</div>
+										<div class="clearfix"> </div>
+										</form>
+									</div>
+					</div>
 				</div>
+			</div>
 					<div class="col-md-4 address">
 					<div class="contact-grid1">
 						
@@ -552,46 +540,7 @@ We can not wait to launch our mobile app.</p>
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-<div class="contact">
-<div class="container">
-	<div class="ser-top ga-top">
-			<h3>Contact</h3>
-			<div class="ser-t">
-				<b></b>
-				<b class="line"></b>
-			</div>
-						<p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
-		</div>
-				<div class="top-contact">
-				<form action="#" method="post">
-				<div class="col-md-6 grid-contact">
-					<div class="your-top">
-						<i class="glyphicon glyphicon-user"> </i>
-						<input type="text" placeholder="Name" name="Name"  required >								
-						<div class="clearfix"> </div>
-					</div>
-					<div class="your-top">
-						<i class="glyphicon glyphicon-envelope"> </i>
-						<input type="text" placeholder="E-mail" name="E-mail" required>								
-						<div class="clearfix"> </div>
-					</div>
-					<div class="your-top">
-						<i class="glyphicon glyphicon-link"> </i>
-						<input type="text" placeholder="Website" name="Website"  required>								
-						<div class="clearfix"> </div>
-					</div>
-					
-				</div>
-				<div class="col-md-6 grid-contact-in">
-					<textarea  placeholder=" Message" name="Message"  required></textarea>
-					<input type="submit" value="Send">
-				</div>
-				<div class="clearfix"> </div>
-				</form>
-			</div>
-			</div>
-			</div>
 		
 
 	<!--footer-->

@@ -385,7 +385,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 /*--services--*/
 .ser-top {
-    margin-bottom: 6em;
+    margin-bottom: 0em;
 	text-align:center;
 }
 .ser-top h3 {
@@ -421,7 +421,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     background: #F05E6B;
 }
 .service {
-    padding: 6em 0 ;
+    padding: 4em 0 ;
 }
 .ser-head h5{
 	font-size: 1.2em;
@@ -635,13 +635,13 @@ ul.callbacks_tabs.callbacks1_tabs {
     border-radius: 100px;
     line-height: 2em;
     text-align: center;
-    margin: 1% 2% 0;
+    margin: 1% 2%;
     font-size: 1em;
 }
 
 .your-top input[type="text"],.grid-contact-in textarea {
   background: none;
-    width: 89%;
+    width: calc(96% - 35px);
     outline: none;
     border: none;
     padding: 0.8em 0.8em;
@@ -683,7 +683,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 .contact {
   background: #fff;
-  padding: 6em 0;
+  padding: 0em 0;
 
 }
 /*----*/
@@ -925,8 +925,8 @@ figcaption a:hover {
     padding: 6em 0 0;
 }
 .test-grid p{
-	font-size:1em;
-	color:#999;
+	font-size:1.2em;
+	color:#303133;
 	line-height:2em;
 	margin-bottom: 2em;
 }
@@ -943,7 +943,7 @@ figcaption a:hover {
 	font-style:italic;
 }
 .test-grid {
-    margin-top: 6em;
+    margin-top: 0em;
 }
 
 /*-- footer --*/
