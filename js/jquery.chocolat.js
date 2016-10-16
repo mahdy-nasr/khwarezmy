@@ -39,15 +39,26 @@
 		images[settings.setIndex] = [];
 		
 		//images:
+		i=0;
 		this.each(function(index){
+
+			if($(this).parent().css('display')=='block')
+					{
+						index=i;
+						i++;
+						console.log(index);
 			if(index == 0 && settings.linkImages && settings.setTitle == ''){
 				settings.setTitle = isSet($(this).attr('rel'), ' ');
 			}
 			$(this).each(function() {
+				
+
 				images[settings.setIndex]['displayAsALink'] = settings.displayAsALink;
 				images[settings.setIndex][index]            = [];
 				images[settings.setIndex][index]['adress']  = isSet($(this).attr('href'), ' ');
 				images[settings.setIndex][index]['caption'] = isSet($(this).attr('title'), ' ');
+				//images[settings.setIndex][index][''] = isSet($(this).attr('title'), ' ');
+
 				if(!settings.displayAsALink){
 					$(this).unbind('click').bind('click', {
 						id  : settings.setIndex,
@@ -55,7 +66,11 @@
 						i   : index
 					}, _initialise);
 				}
+			
 			})
+
+		}
+		
 		});
 		
 		//setIndex:
@@ -166,6 +181,8 @@
 				return false;
 			}
 			else{
+
+				console.log(settings);
 				//$('#Choco_container_description').fadeTo(settings.fadeOutImageduration,0); making a weird bug with firefox 17
 				$('#Choco_container_description').css('visibility','hidden');
 				$('#Choco_bigImage').fadeTo(settings.fadeOutImageduration, 0, function(){
