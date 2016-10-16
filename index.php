@@ -191,63 +191,6 @@ Author URL: http://khwarezmy.com
 	</div>
 </div>
 
-<!---statistics--->
-			<div class="statistics" id="success">
-				<div class="container">
-					<div class="ser-top ser-top1">
-						<h3>Our Key To Success</h3>
-						
-						<div class="ser-t">
-							<b></b>
-							<b class="line"></b>
-						</div>
-					</div>
-					<div class="statistics-grids">
-						<div class="col-md-3 statistics-grid">
-							<div class="statistics-text">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='5206' data-delay='.5' data-increment="100">5206</div>
-								<h5>Happy Clients</h5>
-								<div class="sar-t">
-									<b></b>
-									<b class="line-1"></b>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 statistics-grid">
-							<div class="statistics-text">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='372' data-delay='.5' data-increment="100">372</div>
-								<h5>Coffee Cups</h5>
-								<div class="sar-t">
-									<b></b>
-									<b class="line-1"></b>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 statistics-grid">
-							<div class="statistics-text">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='1052' data-delay='.5' data-increment="100">1052</div>
-								<h5>Awards Won</h5>
-								<div class="sar-t">
-									<b></b>
-									<b class="line-1"></b>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3 statistics-grid">
-							<div class="statistics-text">
-								<div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='256' data-delay='.5' data-increment="100">256</div>
-								<h5>Employees</h5>
-								<div class="sar-t">
-									<b></b>
-									<b class="line-1"></b>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-				<!---statistics--->
 
 					<!--gallery-->
 <div class="gallery" id="gallery">
