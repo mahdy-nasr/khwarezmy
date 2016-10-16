@@ -107,13 +107,13 @@ Author URL: http://khwarezmy.com
 		 <div class="slider">
 			<ul class="rslides" id="slider2">
 			  <li><div class="banner-text"><b>[</b>
-		<h2>Lorem ipsum <span>Dolor sit amet</span></h2>
-		<h6>There are many variations of passages</h6><b class="right-a">]</b>
+		<h2> we promise you <span>State Of Art Apps</span></h2>
+		<h6>                                  </h6><b class="right-a">]</b>
 	</div></li>
 			  <li><div class="banner-text"><b>[</b>
 			
-		<h2> Masagni dolores  <span> Voluptaquisquam</span></h2>
-		<h6>There are many variations of passages</h6><b class="right-a">]</b>
+		<h2> we promise you  <span> 24/7 communication </span></h2>
+		<h6>    					</h6><b class="right-a">]</b>
 	</div></li>
 			  <li><div class="banner-text"><b>[</b>
 		<h2>Lorem ipsum <span>Dolor sit amet</span></h2>
