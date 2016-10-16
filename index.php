@@ -146,7 +146,7 @@ Author URL: http://khwarezmy.com
 							<i class="glyphicon glyphicon-leaf hi-icon "> </i>
 						</div>
 						<h3>Web Development</h3>
-										<p>we go deep into understanding your Business' and provide you with the best solution that will fulfill your business goals.</p>
+										<p>We go deep into understanding your Business' and provide you with the best solution that will fulfill your business goals.</p>
 
 					</div>
 
@@ -174,15 +174,15 @@ Author URL: http://khwarezmy.com
 						<i class="glyphicon glyphicon-cog hi-icon "> </i>
 					</div>
 					
-					<h3>New Service3</h3>
-					<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolorxcknvklxcvkljzxclkvjlkzxjcvkljzxkl xkvcjlzxkjcvlkjzxclv zxlkcvjlkzxjcvlkzjxv sitamnetase adipiscquam eiuse. Basmodi temporant</p>
+					<h3>E-COMMERCE</h3>
+					<p>Raise the bar for your customers with an online experience that exceeds their expectations and enhances your ROI</p>
 				</div>
 				<div class="col-md-6 ser-grid ">
 					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
 						<i class="glyphicon glyphicon-piggy-bank hi-icon"> </i>
 					</div>
-					<h3>New Service4</h3>
-					<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse. Basmodi temporant</p>
+					<h3>Company Digitizing</h3>
+					<p>We take your business to the next level by automating all your daily routins so you can focuse on whats important</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
