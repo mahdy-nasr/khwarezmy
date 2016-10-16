@@ -5,7 +5,7 @@ Author URL: http://khwarezmy.com
 <!DOCTYPE html>
 <html>
 <head>
-<title>Khwarezmy</title>
+<title>Khwarzmy</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <!-- Custom Theme files -->
 <script src="js/jquery.min.js"></script>
@@ -59,8 +59,9 @@ Author URL: http://khwarezmy.com
 					<ul class="nav navbar-nav ">
 					<li ><a href="index.html" class="scroll active" data-hover="Home">Home</a> </li>
 						<li ><a href="#services" class="scroll" data-hover="About">Services</a> </li>
-						<li><a href="#testimonials" class="scroll" data-hover="Gallery">Testimonials</a></li>
 						<li><a href="#gallery" class="scroll" data-hover="Gallery">Portfolio</a></li>
+
+						<li><a href="#testimonials" class="scroll" data-hover="Gallery">Testimonials</a></li>
 						<li><a href="#contact" class="scroll" data-hover="Contact">Contact</a></li>
 					  </ul>
 					  <div class="clearfix"></div>
@@ -209,7 +210,11 @@ Author URL: http://khwarezmy.com
                 <li data-filter="2">Online Shoppign</li>
                 <li data-filter="3">online Education</li>
                 <li data-filter="4">Book Store</li>
-                <li data-filter="5">Catego</li>
+                <li data-filter="5">TalabKom</li>
+                <li data-filter="6">Coordinate Tech</li>
+                <li data-filter="7">Catch up Movies</li>
+
+
             </ul>
      
             <div class="filtr-container">
@@ -545,9 +550,9 @@ We can not wait to launch our mobile app.</p>
 
 	<!--footer-->
 	<div class="copy">
-		<p class="footer-grid" >© 2016 Prevailing . All rights reserved | Design by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a> </p>
+		<p class="footer-grid" >© 2016 last updates . All rights reserved | Design by  <a href="http://Khwarzmy.com/" target="_blank">Khwarzmy</a> </p>
 		<ul class="captn2 footer-sc">
-							<li><a href="#" class="icon1"></a></li>
+							<li><a href="https://www.facebook.com/khwarezmy/" class="icon1"></a></li>
 							<li><a href="#" class="icon2"></a></li>
 							<li><a href="#" class="icon3"></a></li>
 								
