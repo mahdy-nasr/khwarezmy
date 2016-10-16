@@ -159,7 +159,7 @@ Author URL: http://khwarezmy.com
 							<i class="glyphicon glyphicon-user hi-icon "> </i>
 						</div>
 						<h3>Mobile Development</h3>
-										<p>We create highly polished iPhone & Android apps for startups and enterprise clients.</p>
+										<p>We create highly polished iPhone & Android apps for ahmed and enterprise clients.</p>
 
 					</div>
 				</div>
