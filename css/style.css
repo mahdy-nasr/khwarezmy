@@ -549,8 +549,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 	color:#999;
 	line-height:2em;
 }
-.ser-grid:nth-child(1){
-    border-bottom:1px dashed #000;
+/*.ser-grid:nth-child(1){
+    /*border-bottom:1px dashed #000;
 }
 .ser-grid:nth-child(2){
     border-left: 1px dashed #000;
@@ -559,6 +559,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .ser-grid:nth-child(4){
     border-left: 1px dashed #000;
 }
+*/
 .ser-grid {
     padding: 1.5em;
     text-align: center;
