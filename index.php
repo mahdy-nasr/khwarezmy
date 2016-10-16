@@ -423,21 +423,18 @@ Author URL: http://khwarezmy.com
 One of the main features that gave us a huge competitive edge in the market was the powerful search engine, the accuracy and speed were impressive.
 Overall, we definitely recommend Khwarezmy to anyone who is looking for trusted software house.</p>
 							<img src="images/left-1.png" alt="" class="img-responsive">
-						<h4>Andery</h4>
-						<span>Ceo</span>
+						<h4>AtlantisKey</h4>
 					</div>	
 								<div class=" test-grid">
 						<p>Khwarezmy was more like an in-house development department to us than an outsourcing software house. They got involved and provide support from the ideation phase until the launching day. What was more satisfying was their continuous support after lunching.
 We can not wait to launch our mobile app.</p>
 							<img src="images/left-1.png" alt="" class="img-responsive">
-						<h4>Andery</h4>
-						<span>Ceo</span>
+						<h4>Hyper Store</h4>
 					</div>	
 	<div class=" test-grid">
 						<p>I did not need a CTO, Khwarezmy was more than enough for me to open my startup and start making money. And best of all, I did not need an app as the website is completely responsive.</p>
 							<img src="images/left-1.png" alt="" class="img-responsive">
-						<h4>Andery</h4>
-						<span>Ceo</span>
+						<h4>Brainiac online academy</h4>
 					</div>						
 								</div>
 					
