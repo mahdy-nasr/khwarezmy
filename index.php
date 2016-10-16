@@ -138,31 +138,44 @@ Author URL: http://khwarezmy.com
 		</div>
 		<div class="service-head">
 		
+			<div class="col-md-12 ser-head1" style="border-bottom: 1px dashed black;">
+				<div class="col-md-6  ser-grid">
+					<div class=''>
+						<span></span>
+						<div class=" hi-icon-effect-7 hi-icon-effect-7a">
+							<i class="glyphicon glyphicon-leaf hi-icon "> </i>
+						</div>
+						<h3>New Service1</h3>
+						<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor voluptaquisquam estqui dolorem ipsumquia dolor voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse. Basmodi BasmodiBasmodiBasmodiBasmodiBasmodiBasmodi Basmodi BasmodiBasmodi temporant</p>
+
+					</div>
+
+				</div>
+
+				<div class="col-md-6  ser-grid">
+					<div class=''>
+
+						<div class=" hi-icon-effect-7 hi-icon-effect-7a">
+							<i class="glyphicon glyphicon-user hi-icon "> </i>
+						</div>
+						<h3>New Service2</h3>
+						<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse. Basmodi temporant</p>
+
+					</div>
+				</div>
+			</div>
+			
+
 			<div class="col-md-12 ser-head1">
-				<div class="col-md-6 ser-grid ">
-				<span></span>
-					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-leaf hi-icon "> </i>
-					</div>
-					<h3>Web Development</h3>
-										<p>we go deep into understanding your Business' and provide you with the best solution that will fulfill your business goals.</p>
 
-				</div>
-				<div class="col-md-6 ser-grid ">
-					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
-						<i class="glyphicon glyphicon-user hi-icon "> </i>
-					</div>
-					<h3>Mobile Development</h3>
-										<p>We create highly polished iPhone & Android apps for startups and enterprise clients.</p>
 
-				</div>
 				<div class="col-md-6 ser-grid ">
 					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
 						<i class="glyphicon glyphicon-cog hi-icon "> </i>
 					</div>
 					
 					<h3>New Service3</h3>
-					<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolor sitamnetase adipiscquam eiuse. Basmodi temporant</p>
+					<p>Masagni dolores eoquie voluptaquisquam estqui dolorem ipsumquia dolorxcknvklxcvkljzxclkvjlkzxjcvkljzxkl xkvcjlzxkjcvlkjzxclv zxlkcvjlkzxjcvlkzjxv sitamnetase adipiscquam eiuse. Basmodi temporant</p>
 				</div>
 				<div class="col-md-6 ser-grid ">
 					<div class=" hi-icon-effect-7 hi-icon-effect-7a">
@@ -178,7 +191,7 @@ Author URL: http://khwarezmy.com
 	</div>
 </div>
 
-<!---statistics
+<!---statistics--->
 			<div class="statistics" id="success">
 				<div class="container">
 					<div class="ser-top ser-top1">
@@ -234,7 +247,7 @@ Author URL: http://khwarezmy.com
 					</div>
 				</div>
 			</div>
-				statistics-->
+				<!---statistics--->
 
 					<!--gallery-->
 <div class="gallery" id="gallery">
