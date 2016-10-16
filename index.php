@@ -419,28 +419,22 @@ Author URL: http://khwarezmy.com
 					<div class="col-md-8 test-grid1">
 					 <div id="owl-demo2" class="owl-carousel">
 							   			<div class=" test-grid">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua</p>
+						<p>AtlantisKey was a game changer in the Real State business in North Cyprus and for our business for sure. Our clients are very pleased with the simplicity of the website and that was only possible due to the dedication of the UI and UX team in khwarezmy.
+One of the main features that gave us a huge competitive edge in the market was the powerful search engine, the accuracy and speed were impressive.
+Overall, we definitely recommend Khwarezmy to anyone who is looking for trusted software house.</p>
 							<img src="images/left-1.png" alt="" class="img-responsive">
 						<h4>Andery</h4>
 						<span>Ceo</span>
 					</div>	
 								<div class=" test-grid">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua</p>
+						<p>Khwarezmy was more like an in-house development department to us than an outsourcing software house. They got involved and provide support from the ideation phase until the launching day. What was more satisfying was their continuous support after lunching.
+We can not wait to launch our mobile app.</p>
 							<img src="images/left-1.png" alt="" class="img-responsive">
 						<h4>Andery</h4>
 						<span>Ceo</span>
 					</div>	
 	<div class=" test-grid">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua</p>
+						<p>I did not need a CTO, Khwarezmy was more than enough for me to open my startup and start making money. And best of all, I did not need an app as the website is completely responsive.</p>
 							<img src="images/left-1.png" alt="" class="img-responsive">
 						<h4>Andery</h4>
 						<span>Ceo</span>
