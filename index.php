@@ -216,18 +216,18 @@ Author URL: http://khwarezmy.com
             <div class="filtr-container">
                 <div class="  filtr-item gallery-t" data-category="1, 5" data-sort="Busy streets">
 				
-                <a href="images/ga.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-	
-					<figure>
-					 <img src="images/ga.jpg" class="img-responsive" alt=" " />	<figcaption>
-							<h3>Prevailing</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.
-							</p>
-						</figcaption>
-					</figure>
-				</a>
+	                <a href="images/ga.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+		
+						<figure>
+						 <img src="images/ga.jpg" class="img-responsive" alt=" " />	<figcaption>
+								<h3>Prevailing</h3>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua.
+								</p>
+							</figcaption>
+						</figure>
+					</a>
 
                 </div>
                 <div class=" filtr-item" data-category="2, 5" data-sort="Luminous night">
