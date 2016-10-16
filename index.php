@@ -178,7 +178,7 @@ Author URL: http://khwarezmy.com
 	</div>
 </div>
 
-<!---statistics--->
+<!---statistics
 			<div class="statistics" id="success">
 				<div class="container">
 					<div class="ser-top ser-top1">
@@ -234,7 +234,7 @@ Author URL: http://khwarezmy.com
 					</div>
 				</div>
 			</div>
-				<!---statistics--->
+				statistics-->
 
 					<!--gallery-->
 <div class="gallery" id="gallery">
