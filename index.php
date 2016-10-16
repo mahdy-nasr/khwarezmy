@@ -264,11 +264,11 @@ Author URL: http://khwarezmy.com
 		
             <ul class="simplefilter">
                 <li class="active" data-filter="all">All</li>
-                <li data-filter="1">Category</li>
-                <li data-filter="2">Category1</li>
-                <li data-filter="3">Category2</li>
-                <li data-filter="4">Category3</li>
-                <li data-filter="5">Category4</li>
+                <li data-filter="1">Real Estate Portal</li>
+                <li data-filter="2">Online Shoppign</li>
+                <li data-filter="3">online Education</li>
+                <li data-filter="4">Book Store</li>
+                <li data-filter="5">Catego</li>
             </ul>
      
             <div class="filtr-container">
