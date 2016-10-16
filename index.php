@@ -191,12 +191,11 @@ Author URL: http://khwarezmy.com
 	</div>
 </div>
 
-
 					<!--gallery-->
-<div class="gallery" id="gallery">
+<div class="gallery" id="gallery"  >
 	<div class="container">
-		<div class="ser-top ga-top">
-			<h3>Gallery</h3>
+		<div class="ser-top ga-top" style="border-top:2px solid gray;padding-top:30px;">
+			<h3>Portfolio </h3>
 			<div class="ser-t">
 				<b></b>
 				<b class="line"></b>
