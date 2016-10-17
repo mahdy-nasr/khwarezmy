@@ -224,19 +224,20 @@ Author URL: http://khwarezmy.com
 
             </ul>
      
-            <div class="filtr-container">
-                <div class="  filtr-item gallery-t" data-category="1" data-sort="Busy streets">
+            <div class="filtr-container " style="">
+                <div class="  filtr-item web gallery-t" data-category="1" data-sort="Busy streets">
 				
 	                <a href="images/ga.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 		
 						<figure>
-						 <img src="images/ga.jpg" class="img-responsive" alt=" " />	
+						
+						<img src="images/ga.jpg" class="img-responsive" alt=" " />	
 
 						</figure>
 					</a>
 
                 </div>
-                <div class=" filtr-item" data-category="2" data-sort="Luminous night">
+                <div class=" filtr-item web" data-category="2" data-sort="Luminous night">
                    <a href="images/ga1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -245,7 +246,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-                <div class=" filtr-item" data-category="1, 4" data-sort="City wonders">
+                <div class=" filtr-item web" data-category="1, 4" data-sort="City wonders">
                     <a href="images/ga2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -254,7 +255,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-                <div class="  filtr-item" data-category="3" data-sort="In production">
+                <div class="  filtr-item web" data-category="3" data-sort="In production">
                    <a href="images/ga3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -263,7 +264,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-                <div class=" filtr-item" data-category="3, 4" data-sort="Industrial site">
+                <div class=" filtr-item web" data-category="3, 4" data-sort="Industrial site">
                   <a href="images/ga4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -272,7 +273,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-                <div class=" filtr-item" data-category="2, 4" data-sort="Peaceful lake">
+                <div class=" filtr-item web" data-category="2, 4" data-sort="Peaceful lake">
                     <a href="images/ga5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -281,7 +282,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-                <div class="  filtr-item" data-category="1" data-sort="City lights">
+                <div class="  filtr-item web" data-category="1" data-sort="City lights">
                    <a href="images/ga6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -290,7 +291,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-                <div class=" filtr-item" data-category="2, 4" data-sort="Dreamhouse">
+                <div class=" filtr-item web" data-category="2, 4" data-sort="Dreamhouse">
                    <a href="images/ga7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -300,7 +301,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-				<div class=" filtr-item" data-category="2, 4" data-sort="Dreamhouse">
+				<div class=" filtr-item web" data-category="2, 4" data-sort="Dreamhouse">
                   <a href="images/ga8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -312,7 +313,7 @@ Author URL: http://khwarezmy.com
 
                 <!-- _____________________ Talabkom images  ________________________ -->
 
-                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/language.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -322,7 +323,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/home.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -332,7 +333,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/signup.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -343,7 +344,7 @@ Author URL: http://khwarezmy.com
                 </div>
 
 
-                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/navdrawer.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -353,7 +354,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                <div class=" filtr-item mob " data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/allmap.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -363,7 +364,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                <div class=" filtr-item mob " data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/permission.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -375,7 +376,7 @@ Author URL: http://khwarezmy.com
 
                  <!-- _____________________ Coordinate tech images  ________________________ -->
 
-                 <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                 <div class=" filtr-item mob" data-category="6" data-sort="Dreamhouse">
                   <a href="images/port/QR/login.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -385,7 +386,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="6" data-sort="Dreamhouse">
                   <a href="images/port/QR/list.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -395,7 +396,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="6" data-sort="Dreamhouse">
                   <a href="images/port/QR/setails.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -406,7 +407,7 @@ Author URL: http://khwarezmy.com
                 </div>
 
 
-                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="6" data-sort="Dreamhouse">
                   <a href="images/port/QR/qrscan.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -416,7 +417,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                <div class=" filtr-item mob" data-category="6" data-sort="Dreamhouse">
                   <a href="images/port/QR/submission.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -641,10 +642,15 @@ We can not wait to launch our mobile app.</p>
 										</div>
 										<div class="clearfix"> </div>
 										</form>
+										<div class="clearfix"> </div>
+
 									</div>
 					</div>
 				</div>
+						<div class="clearfix"> </div>
+
 			</div>
+
 					<div class="col-md-4 address">
 					<div class="contact-grid1">
 						

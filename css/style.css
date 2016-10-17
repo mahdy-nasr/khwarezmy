@@ -687,11 +687,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 }
 /*----*/
-.map iframe{
-	width: 100%;
-	min-height: 451px;
-	border: 0;
-}
+
 .map{
 	padding:0;
 }
@@ -1106,9 +1102,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .address {
     padding: 3em 0;
 }
-.map iframe {
-    min-height: 300px;
-}
+
 .contact {
     padding: 4em 0;
 }
@@ -1425,9 +1419,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     float: left;
     padding: 0;
 }
-.map iframe {
-    min-height: 200px;
-}
+
 .address {
     padding: 1.5em 0;
 }
