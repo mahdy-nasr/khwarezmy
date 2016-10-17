@@ -115,7 +115,7 @@ Author URL: http://khwarezmy.com
 		<h6>    					</h6><b class="right-a">]</b>
 	</div></li>
 			  <li><div class="banner-text"><b>[</b>
-		<h2>Lorem ipsum <span>Dolor sit amet</span></h2>
+		<h2>we promise you <span>A Statsyfying Worry Free Experince</span></h2>
 		<h6>There are many variations of passages</h6><b class="right-a">]</b>
 	</div></li>		 
 			</ul>
@@ -650,14 +650,14 @@ We can not wait to launch our mobile app.</p>
 						
 						
 							<h4>Address</h4>
-							<p>12K Street, 45 Building Road <span>Canada.</span></p>
+							<p>1 Mkan Aprat. Famagusta <span>Cyprus.</span></p>
 						
 					</div>
 			
 					<div class="contact-grid1">
 						
 							<h4>Call Us</h4>
-							<p>+1234 758 839<span>+1273 748 730</span></p>
+							<p>+201006085363<span>+905338529496</span></p>
 						
 					</div>
 			
@@ -665,7 +665,7 @@ We can not wait to launch our mobile app.</p>
 					<div class="contact-grid1">
 						
 							<h4>Email</h4>
-							<p><a href="mailto:info@example.com">info@example1.com</a><span><a href="mailto:info@example.com">info@example2.com</a></span></p>
+							<p><a href="mailto:khwarzmy@outlook.com">khwarzmy@outlook.com</a></p>
 						
 					</div>
 				
@@ -680,8 +680,9 @@ We can not wait to launch our mobile app.</p>
 		<p class="footer-grid" >© 2016 last updates . All rights reserved | Design by  <a href="http://Khwarzmy.com/" target="_blank">Khwarzmy</a> </p>
 		<ul class="captn2 footer-sc">
 							<li><a href="https://www.facebook.com/khwarezmy/" class="icon1"></a></li>
-							<li><a href="#" class="icon2"></a></li>
+						<!--	<li><a href="#" class="icon2"></a></li>
 							<li><a href="#" class="icon3"></a></li>
+							-->
 								
 						</div>
 	</div>
