@@ -226,7 +226,7 @@ Author URL: http://khwarezmy.com
             </ul>
      
             <div class="filtr-container">
-                <div class="  filtr-item gallery-t" data-category="1, 5" data-sort="Busy streets">
+                <div class="  filtr-item gallery-t" data-category="1" data-sort="Busy streets">
 				
 	                <a href="images/ga.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 		
@@ -237,7 +237,7 @@ Author URL: http://khwarezmy.com
 					</a>
 
                 </div>
-                <div class=" filtr-item" data-category="2, 5" data-sort="Luminous night">
+                <div class=" filtr-item" data-category="2" data-sort="Luminous night">
                    <a href="images/ga1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -282,7 +282,7 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
-                <div class="  filtr-item" data-category="1, 5" data-sort="City lights">
+                <div class="  filtr-item" data-category="1" data-sort="City lights">
                    <a href="images/ga6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
 					<figure>
@@ -310,6 +310,71 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
+
+                <!-- _____________________________________________ -->
+
+                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                  <a href="images/port/talabkom/language.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/talabkom/language.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                  <a href="images/port/talabkom/home.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/talabkom/home.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                  <a href="images/port/talabkom/signup.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/talabkom/signup.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+
+                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                  <a href="images/port/talabkom/navdrawer.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/talabkom/navdrawer.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                  <a href="images/port/talabkom/allmap.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/talabkom/allmap.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
+                  <a href="images/port/talabkom/permission.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/talabkom/permission.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                
 				
                <div class="clearfix"> </div>
             </div>
