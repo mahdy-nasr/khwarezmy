@@ -48,7 +48,7 @@ Author URL: http://khwarezmy.com
 					  </button>
 						 <div class="navbar-brand logo ">
 							<h1 class="animated wow pulse" data-wow-delay=".5s">
-							<a href="index.php">Khwarezmy</a></h1>
+							<a href="index.php">Khwarzmy</a></h1>
 						</div>
 <div class="clearfix"></div>
 					</div>
@@ -92,7 +92,7 @@ Author URL: http://khwarezmy.com
     $(function () {
       $("#slider2").responsiveSlides({
         auto: true,
-        pager: true,
+        pager: false,
         speed: 300,
         namespace: "callbacks",
       });
@@ -203,16 +203,24 @@ Author URL: http://khwarezmy.com
 						
 
 		</div>
-		
+		<style>
+			spam.flicon
+			{
+				border-right: 2px solid;
+				margin-right: 10px;
+				padding-right: 10px;
+
+			}
+		</style>
             <ul class="simplefilter">
                 
-                <li class="active" data-filter="1">Real Estate Portal</li>
-                <li data-filter="2">Online Shoppign</li>
-                <li data-filter="3">online Education</li>
-                <li data-filter="4">Book Store</li>
-                <li data-filter="5">TalabKom</li>
-                <li data-filter="6">Coordinate Tech</li>
-                <li data-filter="7">Catch up Movies</li>
+                <li class="active mnfl" data-filter="1"><spam class='flicon glyphicon glyphicon-globe '></spam>Real Estate Portal</li>
+                <li class='mnfl' data-filter="2"><spam class='flicon glyphicon glyphicon-globe '></spam>Online Shoppign</li>
+                <li class='mnfl' data-filter="3"><spam class='flicon glyphicon glyphicon-globe '></spam>online Education</li>
+                <li class='mnfl' data-filter="4"><spam class='flicon glyphicon glyphicon-globe '></spam>Book Store</li>
+                <li class='mnfl' data-filter="5"><spam class='flicon glyphicon glyphicon-phone '></spam>TalabKom</li>
+                <li class='mnfl' data-filter="6"><spam class='flicon glyphicon glyphicon-phone '></spam>Coordinate Tech</li>
+                <li class='mnfl' data-filter="7"><spam class='flicon glyphicon glyphicon-phone '></spam>Catch up Movies</li>
 
 
             </ul>
