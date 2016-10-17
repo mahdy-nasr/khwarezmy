@@ -116,7 +116,7 @@ Author URL: http://khwarezmy.com
 	</div></li>
 			  <li><div class="banner-text"><b>[</b>
 		<h2>we promise you <span>A Statsyfying Worry Free Experince</span></h2>
-		<h6>There are many variations of passages</h6><b class="right-a">]</b>
+		<h6> 					</h6><b class="right-a">]</b>
 	</div></li>		 
 			</ul>
 		</div>
