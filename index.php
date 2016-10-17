@@ -220,7 +220,6 @@ Author URL: http://khwarezmy.com
                 <li class='mnfl' data-filter="4"><spam class='flicon glyphicon glyphicon-globe '></spam>Book Store</li>
                 <li class='mnfl' data-filter="5"><spam class='flicon glyphicon glyphicon-phone '></spam>TalabKom</li>
                 <li class='mnfl' data-filter="6"><spam class='flicon glyphicon glyphicon-phone '></spam>Coordinate Tech</li>
-                <li class='mnfl' data-filter="7"><spam class='flicon glyphicon glyphicon-phone '></spam>Catch up Movies</li>
 
 
             </ul>
@@ -311,7 +310,7 @@ Author URL: http://khwarezmy.com
 
                 </div>
 
-                <!-- _____________________________________________ -->
+                <!-- _____________________ Talabkom images  ________________________ -->
 
                 <div class=" filtr-item" data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/language.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
@@ -373,6 +372,61 @@ Author URL: http://khwarezmy.com
 				</a>
 
                 </div>
+
+                 <!-- _____________________ Coordinate tech images  ________________________ -->
+
+                 <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                  <a href="images/port/QR/login.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/QR/login.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                  <a href="images/port/QR/list.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/QR/list.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                  <a href="images/port/QR/setails.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/QR/setails.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+
+                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                  <a href="images/port/QR/qrscan.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/QR/qrscan.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+                <div class=" filtr-item" data-category="6" data-sort="Dreamhouse">
+                  <a href="images/port/QR/submission.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+					<figure>
+					 <img src="images/port/QR/submission.png" class="img-responsive" alt=" " />	
+					</figure>
+				</a>
+
+                </div>
+
+
 
                 
 				
