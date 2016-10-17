@@ -220,7 +220,6 @@ Author URL: http://khwarezmy.com
                 <li class='mnfl' data-filter="4"><spam class='flicon glyphicon glyphicon-globe '></spam>Book Store</li>
                 <li class='mnfl' data-filter="5"><spam class='flicon glyphicon glyphicon-phone '></spam>TalabKom</li>
                 <li class='mnfl' data-filter="6"><spam class='flicon glyphicon glyphicon-phone '></spam>Coordinate Tech</li>
-                <li class='mnfl' data-filter="7"><spam class='flicon glyphicon glyphicon-phone '></spam>Catch up Movies</li>
 
 
             </ul>
