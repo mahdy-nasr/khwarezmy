@@ -174,7 +174,7 @@ Author URL: http://khwarezmy.com
     });
   </script>
 <img id='lod' src="images/loading.gif" style="position: absolute; top:50%;left:50%; z-index:1;">
-<div class="" id='bnr' style="z-index:99;">
+<div class="bnrs" id='bnr' style="z-index:99;">
 <div class="container">
 
 	<!--banner-->

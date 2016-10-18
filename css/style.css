@@ -279,6 +279,12 @@ ul li a:hover {
     padding-top: 11.5em;
     background-size: cover;
 }
+.bnrs{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    padding-top: 11.5em;
+}
 .banner-text{
 	position:relative;   
 }
