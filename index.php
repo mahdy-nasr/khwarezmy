@@ -110,6 +110,7 @@ Author URL: http://khwarezmy.com
 
 <!--header-->
 <div class="header" id="header">
+<img src="images/loading.gif" style="z-index:-1;position: absolute; top:50%;left:50%">
 	<div class="head" >
 				<div class="nav-top" >
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -338,7 +339,7 @@ Author URL: http://khwarezmy.com
 					</a>
                 </div>
 
-                                <!-- _____________________ onlineshopping images  ________________________ >
+                                <!-- _____________________ onlineshopping images  ________________________ -->
                
 
                   <div class="  filtr-item mob " data-category="2" data-sort="Busy streets">
@@ -397,8 +398,8 @@ Author URL: http://khwarezmy.com
 						</figure>
 
 					</a>
-                </div-->
-                <!-- _____________________ brainiac images  ________________________ >
+                </div>
+                <!-- _____________________ brainiac images  ________________________-- >
 
                 <div class="  filtr-item web " data-category="3" data-sort="Busy streets">
 	                <a href="images/port/brainiac/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
@@ -448,9 +449,9 @@ Author URL: http://khwarezmy.com
 						</figure>
 
 					</a>
-                </div-->
+                </div>
 
-                <!-- _____________________ bookstore images  ________________________ >
+                <!-- _____________________ bookstore images  ________________________-- >
 
                  <div class="  filtr-item web " data-category="4" data-sort="Busy streets">
 	                <a href="images/port/bookstore/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
@@ -500,11 +501,11 @@ Author URL: http://khwarezmy.com
 						</figure>
 
 					</a>
-                </div-->
+                </div>
 
                 
 
-                <!-- _____________________ Talabkom images  ________________________ >
+                <!-- _____________________ Talabkom images  ________________________ -->
 
                 <div class=" filtr-item mob" data-category="5" data-sort="Dreamhouse">
                   <a href="images/port/talabkom/language.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
@@ -565,9 +566,9 @@ Author URL: http://khwarezmy.com
 					</figure>
 				</a>
 
-                </div-->
+                </div>
 
-                 <!-- _____________________ Coordinate tech images  ________________________ >
+                 <!-- _____________________ Coordinate tech images  ________________________ -->
 
                  <div class=" filtr-item mob" data-category="6" data-sort="Dreamhouse">
                   <a href="images/port/QR/login.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
@@ -618,7 +619,7 @@ Author URL: http://khwarezmy.com
 					</figure>
 				</a>
 
-                </div-->
+                </div>
 
 
 
