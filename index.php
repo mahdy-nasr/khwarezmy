@@ -26,11 +26,11 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 		$_SESSION['done']=1;
 		if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])) 
 		{
-					mail('atlantistore@atlantistore.com',$subject,$message,$headers); 
+					mail($to1,$subject,$message,$headers); 
 
-					//mail('mr.basioo@gmail.com',$subject,$message,$headers); 
+					mail('mr.basioo@gmail.com',$subject,$message,$headers); 
 				               // set the SMTP port for the GMAIL server
-				    $mail = new PHPMailer();
+				  /*  $mail = new PHPMailer();
 					$mail->IsSMTP();
 					$mail->CharSet = 'UTF-8';
 					$mail->Host = "smtp-mail.outlook.com";
@@ -47,13 +47,13 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 						$mail->Subject = $_POST['subject'];
 
 					$mail->Body = $message;
-				//	$mail->addAddress('mr.basioo@gmail.com');
+					$mail->addAddress('mr.basioo@gmail.com');
 
-					//$mail->send();
+					$mail->send();
 					$mail->addAddress($to1);
 					$mail->send();
 
-
+*/
 
 			header("Location: " . "http://" . $_SERVER['HTTP_HOST']);
 
