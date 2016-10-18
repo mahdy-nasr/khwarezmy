@@ -399,7 +399,7 @@ Author URL: http://khwarezmy.com
 
 					</a>
                 </div>
-                <!-- _____________________ brainiac images  ________________________-- >
+                <!-- _____________________ brainiac images  ________________________-->
 
                 <div class="  filtr-item web " data-category="3" data-sort="Busy streets">
 	                <a href="images/port/brainiac/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
@@ -451,7 +451,7 @@ Author URL: http://khwarezmy.com
 					</a>
                 </div>
 
-                <!-- _____________________ bookstore images  ________________________-- >
+                <!-- _____________________ bookstore images  ________________________-->
 
                  <div class="  filtr-item web " data-category="4" data-sort="Busy streets">
 	                <a href="images/port/bookstore/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
