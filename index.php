@@ -173,8 +173,8 @@ Author URL: http://khwarezmy.com
       });
     });
   </script>
-<img id='lod' src="images/loading.gif" style="position: absolute; top:50%;left:50%; z-index:1;">
-<div class="bnrs" id='bnr' style="z-index:99;">
+<img id='lod' src="images/loading.gif" style="position: absolute; top:50%;left:50%; z-index:90;">
+<div class="bnrs" id='bnr' style="z-index:80;">
 <div class="container">
 
 	<!--banner-->
