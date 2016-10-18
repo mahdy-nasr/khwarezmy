@@ -26,12 +26,12 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 		$_SESSION['done']=1;
 		if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])) 
 		{
-					//mail($to1,$subject,$message,$headers); 
+					mail('atlantistore@atlantistore.com',$subject,$message,$headers); 
 
 					//mail('mr.basioo@gmail.com',$subject,$message,$headers); 
 				               // set the SMTP port for the GMAIL server
 				    $mail = new PHPMailer();
-					//$mail->IsSMTP();
+					$mail->IsSMTP();
 					$mail->CharSet = 'UTF-8';
 					$mail->Host = "smtp-mail.outlook.com";
 					$mail->SMTPAuth= true;
