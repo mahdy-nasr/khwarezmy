@@ -174,7 +174,7 @@ Author URL: http://khwarezmy.com
     });
   </script>
 <img id='lod' src="images/loading.gif" style="position: absolute; top:50%;left:50%; z-index:1;">
-<div class="banner" id='bnr' style="z-index:99;">
+<div class="" id='bnr' style="z-index:99;">
 <div class="container">
 
 	<!--banner-->
@@ -891,8 +891,14 @@ We can not wait to launch our mobile app.</p>
 	</div>
 		 <script type="text/javascript">
 		     $('#bnr').ready(function() { 
-		     	$('#lod').css('display','none');
+		     	
 		     });
+		     $('<img/>').attr('src', 'images/banner.png').load(function() {
+			   $(this).remove(); // prevent memory leaks as @benweet suggested
+			   $('#bnr').addClass('banner');
+			   $('#lod').css('display','none');
+
+			});
 
 						$(document).ready(function() {
 							/*
