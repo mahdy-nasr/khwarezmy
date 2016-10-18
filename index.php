@@ -198,6 +198,15 @@ Author URL: http://khwarezmy.com
 		
 </div>
 </div>
+<script type="text/javascript">
+	
+	  $('<img/>').attr('src', 'images/banner.png').load(function() {
+			   $(this).remove(); // prevent memory leaks as @benweet suggested
+			   $('#bnr').addClass('banner');
+			   $('#lod').css('display','none');
+
+			});
+</script>
 <!--content-->
 <div class="service" id="services" style="background:#eee;" >
 	<div class="container">
@@ -893,12 +902,7 @@ We can not wait to launch our mobile app.</p>
 		     $('#bnr').ready(function() { 
 		     	
 		     });
-		     $('<img/>').attr('src', 'images/banner.png').load(function() {
-			   $(this).remove(); // prevent memory leaks as @benweet suggested
-			   $('#bnr').addClass('banner');
-			   $('#lod').css('display','none');
-
-			});
+		   
 
 						$(document).ready(function() {
 							/*
