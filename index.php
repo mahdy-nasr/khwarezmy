@@ -109,8 +109,8 @@ Author URL: http://khwarezmy.com
 
 
 <!--header-->
-<div class="header" id="header">
-<img src="images/loading.gif" style="z-index:-1;position: absolute; top:50%;left:50%">
+
+<div class="header" id="header" style="">
 	<div class="head" >
 				<div class="nav-top" >
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -173,8 +173,8 @@ Author URL: http://khwarezmy.com
       });
     });
   </script>
-
-<div class="banner">
+<img id='lod' src="images/loading.gif" style="position: absolute; top:50%;left:50%; z-index:1;">
+<div class="banner" id='bnr' style="z-index:99;">
 <div class="container">
 
 	<!--banner-->
@@ -890,6 +890,10 @@ We can not wait to launch our mobile app.</p>
 						</div>
 	</div>
 		 <script type="text/javascript">
+		     $('#bnr').ready(function() { 
+		     	$('#lod').css('display','none');
+		     });
+
 						$(document).ready(function() {
 							/*
 							var defaults = {
