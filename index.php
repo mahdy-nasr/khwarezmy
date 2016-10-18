@@ -1,6 +1,8 @@
 <?php
 session_start();
 include("PHPMailer/class.phpmailer.php");
+require 'PHPMailer/PHPMailerAutoload.php';
+
 
 if(!isset($_SESSION['done']))
  		$_SESSION['done']=0;
