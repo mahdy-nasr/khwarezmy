@@ -37,7 +37,7 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 					$mail->Username   = "khwarzmy@outlook.com"; // SMTP account username example
 					$mail->Password   = "Khwarzm2016";  
 					$mail->SMTPSecure = 'tls';
-					$mail->From = 'khwarzmy@outlook.com';
+					$mail->From = 'khwarzmy@outlook.com' ;
 					$mail->FromName= 'khwarzmy client';
 					$mail->isHTML(true);
 					$mail->Subject = 'new client';
