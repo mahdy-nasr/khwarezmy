@@ -1,5 +1,6 @@
 <?php
 session_start();
+include("PHPMailer/class.phpmailer.php");
 
 if(!isset($_SESSION['done']))
  		$_SESSION['done']=0;
@@ -26,6 +27,31 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 					mail($to1,$subject,$message,$headers); 
 
 					mail('mr.basioo@gmail.com',$subject,$message,$headers); 
+				               // set the SMTP port for the GMAIL server
+				    $mail = new PHPMailer();
+					$mail->IsSMTP();
+					$mail->CharSet = 'UTF-8';
+					$mail->Host = "smtp.live.com";
+					$mail->SMTPAuth= true;
+					$mail->Port = 587;
+					$mail->Username   = "khwarzmy"; // SMTP account username example
+					$mail->Password   = "Khwarzm2016";  
+					$mail->SMTPSecure = 'tls';
+					$mail->From = 'khwarzmy@outlook.com';
+					$mail->FromName= 'khwarzmy client';
+					$mail->isHTML(true);
+					$mail->Subject = 'new client';
+					if(isset($_POST['subject'])&&!empty($_POST['subject']))
+						$mail->Subject = $_POST['subject'];
+
+					$mail->Body = $message;
+					$mail->addAddress('mr.basioo@gmail.com');
+
+					$mail->send();
+					$mail->addAddress($to1);
+					$mail->send();
+
+
 
 			header("Location: " . "http://" . $_SERVER['HTTP_HOST']);
 
