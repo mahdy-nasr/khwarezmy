@@ -31,10 +31,10 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 				    $mail = new PHPMailer();
 					$mail->IsSMTP();
 					$mail->CharSet = 'UTF-8';
-					$mail->Host = "smtp.live.com";
+					$mail->Host = "smtp-mail.outlook.com";
 					$mail->SMTPAuth= true;
 					$mail->Port = 587;
-					$mail->Username   = "khwarzmy"; // SMTP account username example
+					$mail->Username   = "khwarzmy@outlook.com"; // SMTP account username example
 					$mail->Password   = "Khwarzm2016";  
 					$mail->SMTPSecure = 'tls';
 					$mail->From = 'khwarzmy@outlook.com';
