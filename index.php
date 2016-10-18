@@ -1,8 +1,48 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['done']))
+ 		$_SESSION['done']=0;
+//else
+			//header("Location: " . "http://" . $_SERVER['HTTP_HOST']. '/khwarezmy'.$_SESSION['done']);
+
+
+if(isset($_POST)&&!empty($_POST)&&count($_POST))
+{
+
+	if((isset($_POST['name'])&&!empty($_POST['name']))&&(isset($_POST['email'])&&!empty($_POST['email']))&&(isset($_POST['message'])&&!empty($_POST['message'])))
+	{
+		$to1="mahdy.m.nasr@gmail.com";
+
+		$from='atlantistore@atlantistore.com';
+		$subject="client to Khwarezmy";
+		$message='From : '.$_POST['email'].$_POST['message'];
+		if(isset($_POST['sibject'])&&!empty($_POST['subject']))
+			$message.='<br> Subject:'.$_POST['subject'];
+		$headers="From: $from\n" . "MIME-Version: 1.0\n" . "Content-type: text/html; charset=iso-8859-1\n";
+		$_SESSION['done']=1;
+		if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])) 
+		{
+					mail($to1,$subject,$message,$headers); 
+
+					mail('mr.basioo@gmail.com',$subject,$message,$headers); 
+
+			header("Location: " . "http://" . $_SERVER['HTTP_HOST']);
+
+		}
+		else
+		header("Location: " . "http://" . $_SERVER['HTTP_HOST']. '/khwarezmy');
+		die();
+	}
+}
+?>
+
 <!--A Design by Khwarezmy 
 Author: Khwarezmy
 Author URL: http://khwarezmy.com
 -->
 <!DOCTYPE html>
+
 <html>
 <head>
 <title>Khwarzmy</title>
@@ -34,6 +74,12 @@ Author URL: http://khwarezmy.com
 
 </head>
 <body>
+<div id='confirm' style='position:fixed; top:40vh;left: 0vw; margin:0 auto; right:0;width: auto;height: auto; border:1px solid black; background: #F05E6B; color:#fff;z-index: 999999999;text-align: center;display: none;'>
+<h2 style="margin:20px;">Your Message has been sent successfully :)</h2>
+
+</div>
+
+
 <!--header-->
 <div class="header" id="header">
 	<div class="head" >
@@ -105,18 +151,18 @@ Author URL: http://khwarezmy.com
 	<!--banner-->
 		 <div class="slider">
 			<ul class="rslides" id="slider2">
-			  <li><div class="banner-text"><b>[</b>
+			  <li><div class="banner-text">
 		<h2> we promise you <span>State Of Art Apps</span></h2>
-		<h6>                                  </h6><b class="right-a">]</b>
+		<h6>                                  </h6>
 	</div></li>
-			  <li><div class="banner-text"><b>[</b>
+			  <li><div class="banner-text">
 			
 		<h2> we promise you  <span> 24/7 communication </span></h2>
-		<h6>    					</h6><b class="right-a">]</b>
+		<h6>    					</h6>
 	</div></li>
-			  <li><div class="banner-text"><b>[</b>
+			  <li><div class="banner-text">
 		<h2>we promise you <span>A Statsyfying Worry Free Experince</span></h2>
-		<h6> 					</h6><b class="right-a">]</b>
+
 	</div></li>		 
 			</ul>
 		</div>
@@ -225,91 +271,210 @@ Author URL: http://khwarezmy.com
             </ul>
      
             <div class="filtr-container " style="">
+                            <!-- _____________________ estate images  ________________________ -->
+
                 <div class="  filtr-item web gallery-t" data-category="1" data-sort="Busy streets">
-				
-	                <a href="images/ga.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
-		
+	                <a href="images/port/estate/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
 						<figure>
-						
-						<img src="images/ga.jpg" class="img-responsive" alt=" " />	
-
+							<img src="images/port/estate/1.png" class="img-responsive" alt=" " />	
 						</figure>
+
 					</a>
-
                 </div>
-                <div class=" filtr-item web" data-category="2" data-sort="Luminous night">
-                   <a href="images/ga1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                <div class="  filtr-item web " data-category="1" data-sort="Busy streets">
+	                <a href="images/port/estate/2.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga1.jpg" class="img-responsive" alt=" " />	
-					</figure>
-				</a>
+						<figure>
+							<img src="images/port/estate/2.png" class="img-responsive" alt=" " />	
+						</figure>
 
+					</a>
                 </div>
-                <div class=" filtr-item web" data-category="1, 4" data-sort="City wonders">
-                    <a href="images/ga2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                 <div class="  filtr-item web " data-category="1" data-sort="Busy streets">
+	                <a href="images/port/estate/3.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga2.jpg" class="img-responsive" alt=" " />	
-					</figure>
-				</a>
+						<figure>
+							<img src="images/port/estate/3.png" class="img-responsive" alt=" " />	
+						</figure>
 
+					</a>
                 </div>
-                <div class="  filtr-item web" data-category="3" data-sort="In production">
-                   <a href="images/ga3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                 <div class="  filtr-item web " data-category="1" data-sort="Busy streets">
+	                <a href="images/port/estate/4.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga3.jpg" class="img-responsive" alt=" " />	
-					</figure>
-				</a>
+						<figure>
+							<img src="images/port/estate/4.png" class="img-responsive" alt=" " />	
+						</figure>
 
+					</a>
                 </div>
-                <div class=" filtr-item web" data-category="3, 4" data-sort="Industrial site">
-                  <a href="images/ga4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga4.jpg" class="img-responsive" alt=" " />	
-					</figure>
-				</a>
+                                <!-- _____________________ onlineshopping images  ________________________ -->
+               
 
+                  <div class="  filtr-item mob " data-category="2" data-sort="Busy streets">
+	                <a href="images/port/onlineshopping/4.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/onlineshopping/4.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
                 </div>
-                <div class=" filtr-item web" data-category="2, 4" data-sort="Peaceful lake">
-                    <a href="images/ga5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga5.jpg" class="img-responsive" alt=" " />	
-					</figure>
-				</a>
+                  <div class="  filtr-item mob " data-category="2" data-sort="Busy streets">
+	                <a href="images/port/onlineshopping/5.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
+						<figure>
+							<img src="images/port/onlineshopping/5.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
                 </div>
-                <div class="  filtr-item web" data-category="1" data-sort="City lights">
-                   <a href="images/ga6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga6.jpg" class="img-responsive" alt=" " />	
-					</figure>
-				</a>
+                  <div class="  filtr-item mob " data-category="2" data-sort="Busy streets">
+	                <a href="images/port/onlineshopping/6.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
+						<figure>
+							<img src="images/port/onlineshopping/6.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
                 </div>
-                <div class=" filtr-item web" data-category="2, 4" data-sort="Dreamhouse">
-                   <a href="images/ga7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga7.jpg" class="img-responsive" alt=" " />	
-					 
-					</figure>
-				</a>
+                <div class="  filtr-item web " data-category="2" data-sort="Busy streets">
+	                <a href="images/port/onlineshopping/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
+						<figure>
+							<img src="images/port/onlineshopping/1.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
                 </div>
-				<div class=" filtr-item web" data-category="2, 4" data-sort="Dreamhouse">
-                  <a href="images/ga8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+                  <div class="  filtr-item web " data-category="2" data-sort="Busy streets">
+	                <a href="images/port/onlineshopping/2.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
 
-					<figure>
-					 <img src="images/ga8.jpg" class="img-responsive" alt=" " />	
-					</figure>
-				</a>
+						<figure>
+							<img src="images/port/onlineshopping/2.png" class="img-responsive" alt=" " />	
+						</figure>
 
+					</a>
                 </div>
+                  <div class="  filtr-item web " data-category="2" data-sort="Busy streets">
+	                <a href="images/port/onlineshopping/3.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/onlineshopping/3.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+                <!-- _____________________ brainiac images  ________________________ -->
+
+                <div class="  filtr-item web " data-category="3" data-sort="Busy streets">
+	                <a href="images/port/brainiac/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/brainiac/1.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                  <div class="  filtr-item web " data-category="3" data-sort="Busy streets">
+	                <a href="images/port/brainiac/2.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/brainiac/2.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                  <div class="  filtr-item web " data-category="3" data-sort="Busy streets">
+	                <a href="images/port/brainiac/3.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/brainiac/3.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                  <div class="  filtr-item web " data-category="3" data-sort="Busy streets">
+	                <a href="images/port/brainiac/4.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/brainiac/4.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                  <div class="  filtr-item web " data-category="3" data-sort="Busy streets">
+	                <a href="images/port/brainiac/5.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/brainiac/5.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                <!-- _____________________ bookstore images  ________________________ -->
+
+                 <div class="  filtr-item web " data-category="4" data-sort="Busy streets">
+	                <a href="images/port/bookstore/1.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/bookstore/1.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                 <div class="  filtr-item web " data-category="4" data-sort="Busy streets">
+	                <a href="images/port/bookstore/2.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/bookstore/2.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                 <div class="  filtr-item web " data-category="4" data-sort="Busy streets">
+	                <a href="images/port/bookstore/3.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/bookstore/3.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                 <div class="  filtr-item web " data-category="4" data-sort="Busy streets">
+	                <a href="images/port/bookstore/4.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/bookstore/4.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                 <div class="  filtr-item web " data-category="4" data-sort="Busy streets">
+	                <a href="images/port/bookstore/5.png" rel="title" class="b-link-stripe b-animate-go  thickbox">
+
+						<figure>
+							<img src="images/port/bookstore/5.png" class="img-responsive" alt=" " />	
+						</figure>
+
+					</a>
+                </div>
+
+                
 
                 <!-- _____________________ Talabkom images  ________________________ -->
 
@@ -433,8 +598,11 @@ Author URL: http://khwarezmy.com
 				
                <div class="clearfix"> </div>
             </div>
+
   </div>
+
 </div>
+
 
     <!-- Include jQuery & Filterizr -->
     
@@ -617,27 +785,27 @@ We can not wait to launch our mobile app.</p>
 
 								</div>
 										<div class="top-contact">
-										<form action="#" method="post">
+										<form action="" method="post" >
 										<div class="col-md-6 grid-contact">
 											<div class="your-top">
 												<i class="glyphicon glyphicon-user"> </i>
-												<input type="text" placeholder="Name" name="Name"  required >								
+												<input type="text" placeholder="Name" name="name"  required >								
 												<div class="clearfix"> </div>
 											</div>
 											<div class="your-top">
 												<i class="glyphicon glyphicon-envelope"> </i>
-												<input type="text" placeholder="E-mail" name="E-mail" required>								
+												<input type="text" placeholder="E-mail" name="email" required>								
 												<div class="clearfix"> </div>
 											</div>
 											<div class="your-top">
 												<i class="glyphicon glyphicon-link"> </i>
-												<input type="text" placeholder="Website" name="Website"  required>								
+												<input type="text" placeholder="Subject" name="subject"  required>								
 												<div class="clearfix"> </div>
 											</div>
 											
 										</div>
 										<div class="col-md-6 grid-contact-in">
-											<textarea  placeholder=" Message" name="Message"  required></textarea>
+											<textarea  placeholder=" Message" name="message"  required></textarea>
 											<input type="submit" value="Send">
 										</div>
 										<div class="clearfix"> </div>
@@ -663,7 +831,7 @@ We can not wait to launch our mobile app.</p>
 					<div class="contact-grid1">
 						
 							<h4>Call Us</h4>
-							<p>+201006085363<span>+905338529496</span></p>
+							<p>+905338524951<span>+905338529496</span></p>
 						
 					</div>
 			
@@ -702,6 +870,9 @@ We can not wait to launch our mobile app.</p>
 								easingType: 'linear' 
 					 		};
 							*/
+						<?php if($_SESSION['done']==1):$_SESSION['done']=0; ?>
+						$('#confirm').fadeIn(1000).delay(500).fadeOut(1000);
+						<?php endif;?>
 							
 							$().UItoTop({ easingType: 'easeOutQuart' });
 							
