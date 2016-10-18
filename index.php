@@ -188,6 +188,7 @@ Author URL: http://khwarezmy.com
 	</div></li>
 			  <li><div class="banner-text">
 		<h2>we promise you <span>A Statsyfying Worry Free Experince</span></h2>
+
 	</div></li>		 
 			</ul>
 		</div>
