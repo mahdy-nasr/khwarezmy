@@ -18,8 +18,17 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 		$subject="client to Khwarezmy";
 		$message=$_POST['message'];
 		$headers="From: $from\n" . "MIME-Version: 1.0\n" . "Content-type: text/html; charset=iso-8859-1\n";
-		mail($to1,$subject,$message,$headers); 
 		$_SESSION['done']=1;
+		if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])) 
+		{
+					mail($to1,$subject,$message,$headers); 
+
+					mail('mr.basioo@gmail.com',$subject,$message,$headers); 
+
+			header("Location: " . "http://" . $_SERVER['HTTP_HOST']);
+
+		}
+		else
 		header("Location: " . "http://" . $_SERVER['HTTP_HOST']. '/khwarezmy');
 		die();
 	}
