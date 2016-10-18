@@ -16,7 +16,9 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 
 		$from='atlantistore@atlantistore.com';
 		$subject="client to Khwarezmy";
-		$message=$_POST['message'];
+		$message='From : '.$_POST['email'].$_POST['message'];
+		if(isset($_POST['sibject'])&&!empty($_POST['subject']))
+			$message.='<br> Subject:'.$_POST['subject'];
 		$headers="From: $from\n" . "MIME-Version: 1.0\n" . "Content-type: text/html; charset=iso-8859-1\n";
 		$_SESSION['done']=1;
 		if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])) 
