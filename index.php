@@ -16,8 +16,8 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 
 		$from='atlantistore@atlantistore.com';
 		$subject="client to Khwarezmy";
-		$message='From : '.$_POST['email'].$_POST['message'];
-		if(isset($_POST['sibject'])&&!empty($_POST['subject']))
+		$message='From : '.$_POST['email'].'<br>'.$_POST['message'];
+		if(isset($_POST['subject'])&&!empty($_POST['subject']))
 			$message.='<br> Subject:'.$_POST['subject'];
 		$headers="From: $from\n" . "MIME-Version: 1.0\n" . "Content-type: text/html; charset=iso-8859-1\n";
 		$_SESSION['done']=1;
