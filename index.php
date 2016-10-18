@@ -1,6 +1,11 @@
 <?php
 session_start();
+
+if(!isset($_SESSION['done']))
  		$_SESSION['done']=0;
+//else
+			//header("Location: " . "http://" . $_SERVER['HTTP_HOST']. '/khwarezmy'.$_SESSION['done']);
+
 
 if(isset($_POST)&&!empty($_POST)&&count($_POST))
 {
@@ -15,6 +20,8 @@ if(isset($_POST)&&!empty($_POST)&&count($_POST))
 		$headers="From: $from\n" . "MIME-Version: 1.0\n" . "Content-type: text/html; charset=iso-8859-1\n";
 		mail($to1,$subject,$message,$headers); 
 		$_SESSION['done']=1;
+		header("Location: " . "http://" . $_SERVER['HTTP_HOST']. '/khwarezmy');
+		die();
 	}
 }
 ?>
@@ -133,18 +140,17 @@ Author URL: http://khwarezmy.com
 	<!--banner-->
 		 <div class="slider">
 			<ul class="rslides" id="slider2">
-			  <li><div class="banner-text"><b>[</b>
+			  <li><div class="banner-text">
 		<h2> we promise you <span>State Of Art Apps</span></h2>
-		<h6>                                  </h6><b class="right-a">]</b>
+		<h6>                                  </h6>
 	</div></li>
-			  <li><div class="banner-text"><b>[</b>
+			  <li><div class="banner-text">
 			
 		<h2> we promise you  <span> 24/7 communication </span></h2>
-		<h6>    					</h6><b class="right-a">]</b>
+		<h6>    					</h6>
 	</div></li>
-			  <li><div class="banner-text"><b>[</b>
+			  <li><div class="banner-text">
 		<h2>we promise you <span>A Statsyfying Worry Free Experince</span></h2>
-		<h6>There are many variations of passages</h6><b class="right-a">]</b>
 	</div></li>		 
 			</ul>
 		</div>
@@ -813,7 +819,7 @@ We can not wait to launch our mobile app.</p>
 					<div class="contact-grid1">
 						
 							<h4>Call Us</h4>
-							<p>+201006085363<span>+905338529496</span></p>
+							<p>+905338524951<span>+905338529496</span></p>
 						
 					</div>
 			
@@ -852,8 +858,8 @@ We can not wait to launch our mobile app.</p>
 								easingType: 'linear' 
 					 		};
 							*/
-						<?php if($_SESSION['done']):?>
-						$('confirm').fadeIn(1000).daily(10000).fadeOut(1000);
+						<?php if($_SESSION['done']==1):$_SESSION['done']=0; ?>
+						$('#confirm').fadeIn(1000).delay(500).fadeOut(1000);
 						<?php endif;?>
 							
 							$().UItoTop({ easingType: 'easeOutQuart' });
