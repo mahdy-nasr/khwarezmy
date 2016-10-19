@@ -575,6 +575,15 @@ We can not wait to launch our mobile app.</p>
 						</div>
 	</div>
 		 <script type="text/javascript">
+
+		 						$(window).load(function () {
+						  // run code
+						  $.get( "ports.html", function( data ) {
+							console.log(data);
+							  $( "#ports" ).html( data );
+								$('.filtr-container').filterizr();
+							});
+						});
 		     $('#bnr').ready(function() { 
 		     	
 		     });
@@ -595,7 +604,6 @@ We can not wait to launch our mobile app.</p>
 							
 							$().UItoTop({ easingType: 'easeOutQuart' });
 							
-						
 
 						/*$.get( "ports.html", function( data ) {
 							console.log(data);
