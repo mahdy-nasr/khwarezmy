@@ -318,6 +318,9 @@ Author URL: http://khwarezmy.com
 
 </div>
 
+<div style="width:100%;height: 1px; ">
+	
+</div>
 
     <!-- Include jQuery & Filterizr -->
     
