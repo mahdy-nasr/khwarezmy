@@ -132,12 +132,12 @@ Author URL: http://khwarezmy.com
 					<div class="collapse navbar-collapse nav-wil links" id="bs-example-navbar-collapse-1">
 					<div class="fill">
 					<ul class="nav navbar-nav ">
-					<li ><a href="index.html" class="scroll active" data-hover="Home">Home</a> </li>
-						<li ><a href="#services" class="scroll" data-hover="About">Services</a> </li>
-						<li><a href="#gallery" class="scroll" data-hover="Gallery">Portfolio</a></li>
+					<li ><a href="#header" class="scroll active" onclick="coll()" data-hover="Home">Home</a> </li>
+						<li ><a href="#services" class="scroll" onclick="coll()" data-hover="About">Services</a> </li>
+						<li><a href="#gallery" class="scroll" onclick="coll()" data-hover="Gallery">Portfolio</a></li>
 
-						<li><a href="#testimonials" class="scroll" data-hover="Gallery">Testimonials</a></li>
-						<li><a href="#contact" class="scroll" data-hover="Contact">Contact</a></li>
+						<li><a href="#testimonials" class="scroll" onclick="coll()" data-hover="Gallery">Testimonials</a></li>
+						<li><a href="#contact" class="scroll" onclick="coll()" data-hover="Contact">Contact</a></li>
 					  </ul>
 					  <div class="clearfix"></div>
 					</div>
@@ -163,6 +163,10 @@ Author URL: http://khwarezmy.com
 <!--content-->
 <script src="js/responsiveslides.min.js"></script>
  <script>
+ function coll(){
+        $('.navbar-toggle').click(); //bootstrap 3.x by Richard
+ }
+
     // You can also use "$(window).load(function() {"
     $(function () {
       $("#slider2").responsiveSlides({
