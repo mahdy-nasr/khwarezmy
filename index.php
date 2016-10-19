@@ -597,11 +597,11 @@ We can not wait to launch our mobile app.</p>
 							
 						
 
-						$.get( "ports.html", function( data ) {
+						/*$.get( "ports.html", function( data ) {
 							console.log(data);
 							  $( "#ports" ).html( data );
 								$('.filtr-container').filterizr();
-							});
+							});*/
 
 						});
 					</script>
