@@ -102,6 +102,7 @@ Author URL: http://khwarezmy.com
 
 </head>
 <body>
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '0940f97b-4d01-4fea-af5c-9c5b3ab7bb33', f: true }); done = true; } }; })();</script>
 <div id='confirm' style='position:fixed; top:40vh;left: 0vw; margin:0 auto; right:0;width: auto;height: auto; border:1px solid black; background: #F05E6B; color:#fff;z-index: 999999999;text-align: center;display: none;'>
 <h2 style="margin:20px;">Your Message has been sent successfully :)</h2>
 
