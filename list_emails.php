@@ -1,0 +1,26 @@
+<?php 
+$customers=[
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+	['email'=>'','name'=>''],
+];
+?>
