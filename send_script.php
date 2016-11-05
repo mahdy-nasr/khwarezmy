@@ -2,7 +2,7 @@
 session_start();
 include("PHPMailer/class.phpmailer.php");
 require 'PHPMailer/PHPMailerAutoload.php';
-require 'list_email.php';
+require 'list_emails.php';
 $handle=fopen('email.html','r');
 $message= fread($handle, filesize('email.html'));
 
@@ -30,14 +30,15 @@ function send_mails($subject)
 					$mail->FromName= 'khwarzmy';
 					$mail->isHTML(true);
 					$mail->Subject = $subject;
-foreach ($customers as $person) {
-				if(!empty($person['name']))
-				{
-					$mail->Body = set_name($message,$person['name']);
-					$mail->addAddress($person['email']);
-					$mail->send();
-				}
-				}
+
+					foreach ($customers as $person) {
+						if(!empty($person['name']))
+						{
+							$mail->Body = set_name($message,$person['name']);
+							$mail->addAddress($person['email']);
+							$mail->send();
+						}
+					}
 
 				echo "Done";
 				
