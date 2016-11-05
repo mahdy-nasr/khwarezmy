@@ -1,7 +1,7 @@
 <?php 
 $customers=[
-	['email'=>'','name'=>''],
-	['email'=>'','name'=>''],
+	['email'=>'mr.basioo@gmail.com','name'=>'Ahmad bassiouny'],
+	['email'=>'mahdy.m.nasr@gmail.com','name'=>'mahdy nasr'],
 	['email'=>'','name'=>''],
 	['email'=>'','name'=>''],
 	['email'=>'','name'=>''],

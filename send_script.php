@@ -14,7 +14,8 @@ function set_name($msg,$name)
 }
 function send_mails($subject)
 {
-		global $message;
+		global $message,$customers;
+
 
 	$mail = new PHPMailer();
 					$mail->IsSMTP();
@@ -30,10 +31,12 @@ function send_mails($subject)
 					$mail->isHTML(true);
 					$mail->Subject = $subject;
 foreach ($customers as $person) {
-				
+				if(!empty($person['name']))
+				{
 					$mail->Body = set_name($message,$person['name']);
 					$mail->addAddress($person['email']);
 					$mail->send();
+				}
 				}
 
 				echo "Done":
