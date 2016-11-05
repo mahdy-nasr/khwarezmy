@@ -39,7 +39,7 @@ foreach ($customers as $person) {
 				}
 				}
 
-				echo "Done":
+				echo "Done";
 				
 }
 
