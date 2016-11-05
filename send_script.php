@@ -43,5 +43,6 @@ function send_mails($subject)
 				echo "Done";
 				
 }
+send_mails("Startup istanbal ");
 
 ?>
