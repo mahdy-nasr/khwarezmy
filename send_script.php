@@ -6,10 +6,9 @@ require 'list_emails.php';
 $handle=fopen('email.html','r');
 $message= fread($handle, filesize('email.html'));
 
-function set_name($msg,$name)
+function set_name(&$msg,$name)
 {
-	str_replace('$',$name,$msg);
-	return $msg;
+	return str_replace('$',$name,$msg);
 
 }
 function send_mails($subject)

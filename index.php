@@ -327,7 +327,7 @@ s0.parentNode.insertBefore(s1,s0);
 		</style>
             <ul class="simplefilter">
                 
-                <li class="active mnfl" data-filter="1"><spam class='flicon glyphicon glyphicon-globe '></spam>Real Estate Portal</li>
+                <li class="active mnfl" id='fixfilter' data-filter="1"><spam class='flicon glyphicon glyphicon-globe '></spam>Real Estate Portal</li>
                 <li class='mnfl' data-filter="2"><spam class='flicon glyphicon glyphicon-globe '></spam>Online Shoppign</li>
                 <li class='mnfl' data-filter="3"><spam class='flicon glyphicon glyphicon-globe '></spam>online Education</li>
                 <li class='mnfl' data-filter="4"><spam class='flicon glyphicon glyphicon-globe '></spam>Book Store</li>
@@ -614,6 +614,8 @@ We can not wait to launch our mobile app.</p>
 							console.log(data);
 							  $( "#ports" ).html( data );
 								$('.filtr-container').filterizr();
+								$('#fixfilter').delay(500).trigger();
+
 							});
 						});
 		     $('#bnr').ready(function() { 
