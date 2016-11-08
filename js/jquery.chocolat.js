@@ -46,7 +46,7 @@
 					{
 						index=i;
 						i++;
-						console.log(index);
+			//			console.log(index);
 			if(index == 0 && settings.linkImages && settings.setTitle == ''){
 				settings.setTitle = isSet($(this).attr('rel'), ' ');
 			}

@@ -188,6 +188,7 @@ x=0;
 
             self.options.filter = targetFilter;
             self.trigger('filteringStart');
+
             //Filter items
             self._handleFiltering(target);
             //Apply search filter on top if activated
@@ -520,9 +521,12 @@ x=0;
             //Array of positions to return
             posArray = [];
 
+             //alert(self.outerWidth()+'dd');
+         //   alert(self.outerHeight()+'rr');
             //Layout for items of varying sizes
             if (self.options.layout === 'packed') {
                 //Cache current item width/height
+                
                 $.each(self._activeArray, function(i, e) {
                     e._updateDimensions();
                 });
@@ -587,6 +591,7 @@ x=0;
                 }
                 containerHeight = rows * array[0].outerHeight();
             }
+
             //Layout for items of same width and varying height
             else if (self.options.layout === 'sameWidth') {
                 //Get positions
@@ -624,6 +629,7 @@ x=0;
             }
             //Layout for items of exactly same size
             else if (self.options.layout === 'sameSize') {
+              //  alert(self.outerWidth()+'dd');
                 for (i = 1; i <= array.length; i++) {
                     //Push first point at (left: 0, top: 0)
                     posArray.push({
@@ -641,8 +647,10 @@ x=0;
                 rows = Math.ceil(array.length / cols);
                 containerHeight = rows * array[0].outerHeight();
             }
-            //Update the height of .filtr-container based on new positions
+            //Update the height of .filtr-container based on new positions mahdy
             self.css('height', containerHeight);
+            //console.log(containerHeight+'dd'+array.length+'dd'+rows+'img'+array[0]+'its hight'+array[0].outerHeight());
+            //console.log(array[0]);
             return posArray;
         },
 

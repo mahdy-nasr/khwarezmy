@@ -119,7 +119,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='http://embed.tawk.to/580c5ff0a42095204693c1b8/default';
+s1.src='https://embed.tawk.to/580c5ff0a42095204693c1b8/default';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
@@ -611,10 +611,16 @@ We can not wait to launch our mobile app.</p>
 		 						$(window).load(function () {
 						  // run code
 						  $.get( "ports.html", function( data ) {
-							console.log(data);
+							//console.log(data);
 							  $( "#ports" ).html( data );
-								$('.filtr-container').filterizr();
-								$('#fixfilter').delay(500).trigger();
+							  $('#test1').load(function(){
+							  	//alert('ready');
+							  	$('.filtr-container').filterizr();
+								
+							  });
+
+							 
+								
 
 							});
 						});
